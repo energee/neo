@@ -778,6 +778,12 @@ design rules under a new name.</description>
 <wire x1="20.491" y1="17.609" x2="20.491" y2="22.6848" width="1.016" layer="16"/>
 <wire x1="25.4" y1="10.8204" x2="25.4" y2="12.7" width="1.016" layer="1"/>
 <wire x1="25.4" y1="12.7" x2="20.491" y2="17.609" width="1.016" layer="16"/>
+<via x="2.54" y="11.43" extent="1-16" drill="0.35"/>
+<via x="38.1" y="7.62" extent="1-16" drill="0.35"/>
+<via x="96.52" y="3.81" extent="1-16" drill="0.35"/>
+<via x="15.24" y="13.97" extent="1-16" drill="0.35"/>
+<via x="44.45" y="3.81" extent="1-16" drill="0.35"/>
+<wire x1="44.6786" y1="5.715" x2="44.45" y2="3.81" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="CAN1_L">
 <contactref element="J1" pad="13"/>
@@ -1047,15 +1053,14 @@ design rules under a new name.</description>
 <wire x1="16.81145625" y1="16.7862" x2="16.53525625" y2="16.51" width="0.254" layer="16"/>
 <wire x1="19.204" y1="13.4858" x2="17.7768" y2="14.913" width="0.254" layer="16"/>
 <wire x1="17.7768" y1="14.913" x2="17.7768" y2="16.38634375" width="0.254" layer="16"/>
-<wire x1="16.53525625" y1="16.51" x2="7.62" y2="16.51" width="0.254" layer="16"/>
-<wire x1="7.62" y1="16.51" x2="7.62" y2="18.4752625" width="0.254" layer="16"/>
-<wire x1="7.62" y1="18.4752625" x2="4.7076" y2="21.3876625" width="0.254" layer="16"/>
 <wire x1="4.7076" y1="21.3876625" x2="4.7076" y2="26.6335625" width="0.254" layer="16"/>
 <wire x1="13.22736875" y1="28.3416" x2="13.6858" y2="27.88316875" width="0.254" layer="16"/>
 <wire x1="13.6858" y1="27.88316875" x2="13.6858" y2="27.09" width="0.254" layer="16"/>
 <wire x1="6.4156375" y1="28.3416" x2="13.22736875" y2="28.3416" width="0.254" layer="16"/>
 <wire x1="4.7076" y1="26.6335625" x2="6.4156375" y2="28.3416" width="0.254" layer="16"/>
 <wire x1="13.6858" y1="27.09" x2="14.591" y2="26.1848" width="0.254" layer="16"/>
+<wire x1="16.53525625" y1="16.51" x2="9.5852625" y2="16.51" width="0.254" layer="16"/>
+<wire x1="9.5852625" y1="16.51" x2="4.7076" y2="21.3876625" width="0.254" layer="16"/>
 </signal>
 <signal name="MDX_CANL">
 <contactref element="J1" pad="17"/>
@@ -1070,21 +1075,6 @@ design rules under a new name.</description>
 <wire x1="16.26286875" y1="17.1676" x2="16.26286875" y2="20.31293125" width="0.254" layer="1"/>
 <wire x1="16.26286875" y1="20.31293125" x2="13.891" y2="22.6848" width="0.254" layer="1"/>
 <wire x1="18.1832" y1="16.55468125" x2="17.54528125" y2="17.1926" width="0.254" layer="16"/>
-</signal>
-<signal name="N$1">
-<via x="38.1" y="7.62" extent="1-16" drill="0.35"/>
-</signal>
-<signal name="N$2">
-<via x="44.45" y="3.81" extent="1-16" drill="0.35"/>
-</signal>
-<signal name="N$4">
-<via x="15.24" y="13.97" extent="1-16" drill="0.35"/>
-</signal>
-<signal name="N$5">
-<via x="2.54" y="11.43" extent="1-16" drill="0.35"/>
-</signal>
-<signal name="N$6">
-<via x="96.52" y="3.81" extent="1-16" drill="0.35"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
