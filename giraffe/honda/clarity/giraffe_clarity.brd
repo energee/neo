@@ -9,7 +9,7 @@
 </settings>
 <grid distance="0.025" unitdist="inch" unit="inch" style="dots" multiple="1" display="yes" altdistance="0.0125" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
 <layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
 <layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
@@ -24,7 +24,7 @@
 <layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
 <layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
 <layer number="15" name="Route15" color="4" fill="6" visible="yes" active="yes"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
@@ -174,19 +174,19 @@
 <vertex x="46.7868" y="0.1778"/>
 <vertex x="46.7868" y="0.635"/>
 </polygon>
-<text x="54.8894" y="1.4224" size="1.778" layer="21" font="vector" ratio="10" rot="R90">clarity-20</text>
-<text x="36.7284" y="16.0528" size="1.016" layer="21">CAN1</text>
-<text x="41.8846" y="16.0528" size="1.016" layer="21">CAN3</text>
-<text x="47.8028" y="16.0528" size="1.016" layer="21">CAN2</text>
-<text x="52.4764" y="16.0528" size="1.016" layer="21">PWR</text>
+<text x="55.5244" y="2.6924" size="1.778" layer="21" font="vector" ratio="10" rot="R90">clarity</text>
+<text x="36.7284" y="16.0528" size="1.016" layer="21" font="vector">CAN1</text>
+<text x="41.8846" y="16.0528" size="1.016" layer="21" font="vector">CAN2</text>
+<text x="47.1678" y="16.0528" size="1.016" layer="21" font="vector">CAN3</text>
+<text x="52.7939" y="16.0528" size="1.016" layer="21" font="vector">PWR</text>
 <wire x1="40.8686" y1="17.4244" x2="40.8686" y2="15.5956" width="0.254" layer="51"/>
-<wire x1="47.244" y1="17.5006" x2="47.244" y2="15.6718" width="0.254" layer="51"/>
+<wire x1="46.609" y1="17.5006" x2="46.609" y2="15.6718" width="0.254" layer="51"/>
 <wire x1="51.6382" y1="17.5768" x2="51.6382" y2="15.748" width="0.254" layer="51"/>
-<wire x1="55.8546" y1="17.5006" x2="55.8546" y2="15.6718" width="0.254" layer="51"/>
+<wire x1="56.4896" y1="17.5006" x2="56.4896" y2="15.6718" width="0.254" layer="51"/>
 <text x="85.217" y="20.4978" size="0.4064" layer="48" rot="R180">*compatible with freeTheC pins soldered on TOP</text>
 <text x="18.0213" y="13.8938" size="0.8128" layer="21" font="vector" rot="R180" align="center">10/28/18</text>
 <wire x1="61.468" y1="9.525" x2="93.3958" y2="9.525" width="1.99898125" layer="20"/>
-<text x="17.78" y="16.8275" size="1.27" layer="21" font="vector" rot="R180" align="center">Made in Philadelphia
+<text x="17.78" y="17.4625" size="1.27" layer="21" font="vector" rot="R180" align="center">Made in Philadelphia
 by energee</text>
 </plain>
 <libraries>
