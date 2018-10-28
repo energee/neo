@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.3.2">
+<eagle version="9.2.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -888,13 +888,28 @@ Standard 8.5x11 US Letter frame</description>
 <text x="164.338" y="103.124" size="1.778" layer="97">MobilEye Female (to Nidec)</text>
 </plain>
 <instances>
-<instance part="J1" gate="G$1" x="63.5" y="101.6"/>
-<instance part="J3" gate="G$1" x="81.28" y="127"/>
-<instance part="J2" gate="G$1" x="157.48" y="101.6"/>
-<instance part="J4" gate="G$1" x="96.52" y="43.18"/>
-<instance part="SW1" gate="G$1" x="175.26" y="134.62"/>
-<instance part="FRAME1" gate="G$1" x="0" y="0"/>
-<instance part="FRAME1" gate="V" x="147.32" y="0"/>
+<instance part="J1" gate="G$1" x="63.5" y="101.6" smashed="yes">
+<attribute name="NAME" x="63.5" y="102.87" size="1.778" layer="95"/>
+</instance>
+<instance part="J3" gate="G$1" x="81.28" y="127" smashed="yes">
+<attribute name="NAME" x="63.754" y="141.224" size="1.778" layer="95"/>
+</instance>
+<instance part="J2" gate="G$1" x="157.48" y="101.6" smashed="yes">
+<attribute name="NAME" x="157.48" y="102.87" size="1.778" layer="95"/>
+</instance>
+<instance part="J4" gate="G$1" x="96.52" y="43.18" smashed="yes">
+<attribute name="NAME" x="100.33" y="53.848" size="1.778" layer="95"/>
+<attribute name="VALUE" x="100.33" y="32.258" size="1.778" layer="96"/>
+</instance>
+<instance part="SW1" gate="G$1" x="175.26" y="134.62" smashed="yes">
+<attribute name="NAME" x="162.56" y="152.4" size="1.9304" layer="95"/>
+</instance>
+<instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes"/>
+<instance part="FRAME1" gate="V" x="147.32" y="0" smashed="yes">
+<attribute name="LAST_DATE_TIME" x="160.02" y="1.27" size="2.54" layer="94" font="vector"/>
+<attribute name="SHEET" x="233.68" y="1.27" size="2.54" layer="94" font="vector"/>
+<attribute name="DRAWING_NAME" x="162.814" y="17.78" size="2.7432" layer="94" font="vector"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -1254,10 +1269,6 @@ Standard 8.5x11 US Letter frame</description>
 </nets>
 </sheet>
 </sheets>
-<errors>
-<approved hash="113,1,81.28,89.4436,J1,,,,,"/>
-<approved hash="113,1,175.26,89.4436,J2,,,,,"/>
-</errors>
 </schematic>
 </drawing>
 </eagle>
